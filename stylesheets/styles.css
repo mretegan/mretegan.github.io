@@ -99,6 +99,10 @@ img {
   max-width:100%;
 }
 
+ol {
+    padding: 0;
+}
+
 header {
   width:270px;
   float:left;
