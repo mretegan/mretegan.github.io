@@ -99,6 +99,15 @@ img {
   max-width:100%;
 }
 
+img.center {
+  max-width:80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 2px;
+  /* padding: 10px; */
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.9); */
+} 
+
 ol {
     padding: 0px;
     margin: 0 0 0 15px;
