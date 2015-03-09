@@ -15,37 +15,54 @@
 <body>
 <div class="wrapper">
     <header>
-        <img src="files/headshot.png" style="width:170px; margin: 5% 0 0 5%"></img>
-        <br></br>
-        <h1>Marius Retegan</h1>
-        <p style="line-height:80%;">
-        <a href="http://www.cec.mpg.de" target="_blank">MPI for Chemical Energy Conversion</a>
+        <!-- <img src="files/headshot.png" style="width:170px; margin: 5% 0 0 5%"></img> -->
+        <!-- <br></br> -->
+        <!-- <h1>Marius Retegan</h1> -->
+        <!-- <p> -->
+        <!-- Max Planck research fellow at the<br> -->
+        <!-- <a href="http://www.cec.mpg.de" target="_blank">MPI for Chemical Energy Conversion</a><br> -->
+        <!-- Stiftstr. 34&ndash;36  -->
+        <!-- 45470 Mülheim an der Ruhr, Germany -->
+        <!-- marius.retegan (at) cec.mpg.de<br> -->
+        <!-- +49 (0) 208 306 3588 -->
         <!-- </p> -->
-        <!-- <p style="line-height:80%;"> -->
-        <br></br>
-        Stiftstr. 34&ndash;36 
-        <br></br>
-        45470 Mülheim an der Ruhr, Germany
-        <br></br>
-        marius.retegan (at) cec.mpg.de
-        <br></br>
-        +49 (0) 208 306 3588
-        </p>
     </header>
 
     <section>
-
         <h1><a id="research-interests" class="anchor" href="#research-interests" aria-hidden="true"></a>Research Interests</h1>
         <hr></hr>
-        <!-- <h2>Biological Water Oxidation</h2> -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor neque quis sagittis porta. Integer condimentum, nunc in porta porta, turpis dui egestas ex, eget auctor orci ex non dui. Morbi tempor nulla vitae nulla dignissim pretium. Donec ante mi, tempus non ligula ut, placerat consequat risus. Vivamus ac dolor urna. Aliquam sit amet suscipit neque, placerat hendrerit sem. Suspendisse eu placerat justo, eu porta tortor. Maecenas vitae sem at orci faucibus dictum. In interdum finibus tellus, sit amet varius nisl efficitur non.
-        <br></br>
-        <img class="center" src="files/psii_hfc_qmmm.png"></img>
-        <br></br>
-        Vivamus ultrices mi a sapien viverra feugiat sit amet sed nisi. Sed malesuada pellentesque lacus eu condimentum. Vestibulum malesuada nunc rutrum pretium tristique. Vestibulum molestie vestibulum libero at elementum. Suspendisse potenti. Nunc non elit sed ligula rhoncus vehicula quis at augue. Vestibulum rhoncus elit sed nisi venenatis congue. Phasellus tempus et turpis a accumsan.
-        <br></br>
-        Mauris euismod magna sit amet sem fringilla, cursus egestas tortor placerat. Sed in mattis odio. Nullam venenatis ex a lectus ullamcorper aliquet. Cras eleifend sagittis dolor nec gravida. Donec id enim accumsan, mattis leo quis, hendrerit sem. Nullam vitae erat sed velit tincidunt feugiat at vitae metus. Maecenas pellentesque sapien in condimentum tempor. In consequat sem ipsum, in finibus urna mattis a. Ut posuere aliquam ante. Aliquam sagittis ut nisl consequat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat.
+
+        <h2>Biomolecular Simulations</h2>
+        <p>
+        Proteins are central to a large number of chemical reactions in living organisms. They display an astonishing range of functions, a diversity made possible partially by the presence of cofactors such as metal atoms and clusters that contain metal and non-metal atoms. My primary research interest is geared towards understanding the electronic structure, the magnetic and spectroscopic properties and the chemical reactivity of these complex biological systems though computational chemistry. Especially suited are the multiscale methods in particular hybrid quantum mechanics and molecular mechanics (QM/MM) methods that combine molecular modeling using inexpensive classical potentials with elaborate first-principle treatments of the electronic structure.
         </p>
+        <figure>
+            <img class="center" src="files/methods.png"></img>
+            <figcaption>Range of computational methods that I employ in my current research</figcaption>
+        </figure>
+        <p>
+        Biological systems containing open-shell transition metal centers presents significant challenges for theory. In addition to the presence of unpaired electrons, the difficulty is complicated by the necessity of including the protein environment that embeds the metallic centers and precisely tunes their chemical and spectroscopic properties. Illustrative in this respect are a number of studies that demonstrate the effect of the second sphere amino acids in the hydrolysis of phosphomonoesters catalyzed by the purple acid phosphates,<sup>16</sup> the spectroscopic properties of an iron-containing azurin,<sup>9</sup> or the specific influence of hydrogen bond interaction on the spectroscopic signature of the natural water splitting catalyst.<sup>7</sup>
+        </p>
+        <figure>
+            <img class="center" src="files/psii_hfc_qmmm.png"></img>
+            <figcaption>A hydrogen-bonding interaction orients the His332 residue, which in turn determines the hyperfine coupling constant of the Mn1 ion from the oxygen evolving complex, the active site of photosystem II.</figcaption>
+        </figure>
+        <br>
+
+        <h2>Theoretical Spectroscopy and Method Development</h2>
+        <p>
+        Another topic of interest in my research is the development of theoretical methods for the prediction of spectroscopic parameters in open-shell system. In a recent contribution,<sup>2</sup> a novel approach has been introduced for the accurate calculation of the on-site zero field splitting in polynuclear metal clusters of arbitrary nuclearity. The method termed local complete active space configuration interaction (L-CASCI) represents a multireference <em>ab initio</em> calculation within an active space composed of local orbitals of the center of interest. The approach is particularly efficient and can be easily applied to clusters of any size and topology at no additional computational costs.
+        </p>
+
+        <figure>
+            <img class="center" src="files/local_casci_pivoh.png"></img>
+            <figcaption>On-site zero-field splitting of the Mn(III) ion from a mixed valence complex calculated using the L-CASCI approach.</figcaption>
+        </figure>
+        
+        <p>
+        On the development side, I focus on bringing these methods to the freely available ORCA software. 
+        </p>
+        <br>
 
         <h1><a id="publications" class="anchor" href="#publications" aria-hidden="true"></a>Publications</h1>
         <hr></hr>
